@@ -18,6 +18,13 @@
                     </li>
 
                 </ul>
+                <ul class="dropdown-menu">
+                    <li class='{{ Request::is('dashboard-general-dashboard') ? 'active' : '' }}'>
+                        <a class="nav-link"
+                            href="{{ route('users.index')}}">Users</a>
+                    </li>
+
+                </ul>
             </li>
 
     </aside>
